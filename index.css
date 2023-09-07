@@ -1,1 +1,52 @@
-/* Empty CSS test file */
+body {
+    background-color: #e9e9e9; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(222, 221, 221);
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-style: double;
+    border-color: rgb(255, 0, 0);
+    border-width: thick;
+}
+
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border-style: dashed;
+    border-color: tan;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    background-color: #8f1616;
+    transition: 0.1s;
+}
