@@ -4,6 +4,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h2, h3{
+    text-decoration:underline;
+}
+
 .container {
     background-color: rgba(255, 255, 255, 0.6);
     padding: 20px;
