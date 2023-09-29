@@ -46,3 +46,7 @@ ul {
     background-color: #8f1616;
     transition: 0.1s;
 }
+
+textarea{
+    resize: none;
+}
