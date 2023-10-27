@@ -15,8 +15,8 @@ h2, h3 {
     text-align: center;
     border-style: solid;
     border-color: rgb(222, 221, 221);
-    width: 900px;
-    height: 850px;
+    max-width: 900px; /* Use max-width instead of width */
+    height: auto;
     margin: 0 auto;
     position: relative;
 }
@@ -108,7 +108,8 @@ ul {
 
 /* Style for the image container */
 .image-container {
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 20px;
+    text-align: center; /* Center the image */
 }
 
 img {
