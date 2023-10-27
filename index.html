@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="CSS/index.css">
+<link rel="stylesheet" href="CSS/styles.css">
 <title>Personal Website Assignment</title>
 
 <body>
@@ -12,24 +12,32 @@
         <!-- Assignment Name: Assignment: Personal Webpage -->
         <!-- UDEL Email: pkama@udel.edu -->
     </h1>
-<div class="container">
+    <div class="container">
 
-    <div class="navbar">
-        <a href="https://devin-c64.github.io/">Prev Student</a>
-        <a href="https://mattm401.github.io/">Course Page</a>
-        <a href="https://pkamath87.github.io/aboutMe.html">About Me</a>
-        <a href="https://pkamath87.github.io/index.html">Home</a>
-        <a href="https://pkamath87.github.io/contact.html">Contact Form</a>
-        <a href="https://fierceblizzard.github.io/">Next Student</a>
-    </div>
+        <div class="navbar">
+            <a href="https://pkamath87.github.io/aboutMe.html">About Me</a>
+            <a href="https://pkamath87.github.io/index.html">Home</a>
+            <a href="https://pkamath87.github.io/contact.html">Contact Form</a>
 
-    <div class="content-container">
+            <div class="button-wrapper">
+                <button id="dropdown-button">Course</button>
+                <div class="dropdown" id="dropdown-content">
+                    <ul>
+                        <li><a href="https://devin-c64.github.io/">Prev Student</a></li>
+                        <li><a href="https://m-bocelli.github.io/">Next Student</a></li>
+                        <li><a href="https://mattm401.github.io/">Course Page</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
         <h1>Pranav Kamath's Personal Website</h1>
         <p>I go by Pranav in and out of classes</p>
-        <img src="WebAppPicture.png" alt="Description of the image">
-            <p>- This is a picture of my trip to Boston!</p>
+        <div class="image-container"> <!-- Image container -->
+            <img src="WebAppPicture.png">
+        </div>
+        <p>- This is a picture of my trip to Boston!</p>
     </div>
-
-</div>
 </body>
 </html>
