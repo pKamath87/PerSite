@@ -119,3 +119,86 @@ img {
     border-color: rgb(255, 0, 0);
     border-width: thick;
 }
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-button-wrapper {
+    position: relative;
+}
+
+#footer-dropdown-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: underline;
+    transition: background-color 0.2s;
+}
+
+#footer-dropdown-button:hover {
+    background-color: #8f1616;
+}
+
+.footer-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 200px;
+    min-height: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.footer-button-wrapper:hover #footer-dropdown-content {
+    display: block;
+}
+
+#footer-dropdown-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-dropdown-content li {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#footer-dropdown-content li:hover {
+    background-color: #8f1616;
+    color: white;
+}
